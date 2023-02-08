@@ -1,0 +1,58 @@
+---
+title: "Practice DS"
+author: "Allan á Argjagarði"
+date: "2023-02-08"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+#simple exercises for R training
+library(dplyr)
+help(dplyr)
+
+
+```{r}
+matr2 = rbind(c(1,1,2,2), c(2,2,1,2), c(2,3,3,4), c(1,2,3,4)) #making the matrix
+
+```
+
+```{r}
+matr2[c(1,3), c(1,2,4)] #first is row next is columns
+
+```
+
+```{r}
+#matr2 %>%
+ # sqrt() %>%
+  #log2() %>%
+  #max()
+
+```
+
+
+Q2
+```{r}
+dfgrade <- data.frame(
+  name= c("Anne","Bert","Chad"),
+           count= c(83,85,93),
+           grade= c("B","B","A"))
+
+```
+
+
+```{r}
+dfgrade$count
+```
+
+
+
+
+
